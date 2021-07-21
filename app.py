@@ -49,6 +49,6 @@ harga_brg = int(input('Masukan jumlah harga yang ingin dibeli(Rp.): '))
 ## total harga yang dipilih
 total_hrg = berat_brg*harga_brg
 table_total_hrg = [[pilih_brg,jumlah_brg,jenis_brg,berat_brg,total_hrg]]
-headers_total_hrg = ['barang yg dibeli','jumlah barang','jenis barang','berat barang(kg)','harga barang(Rp.)']
+headers_total_hrg = ['barang yg dibeli','jumlah barang','jenis barang','berat barang(kg)','total harga(Rp.)']
 hasil_berat_brg = print(tabulate(table_total_hrg, headers_total_hrg, tablefmt="pretty"))
 
