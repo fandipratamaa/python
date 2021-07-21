@@ -52,3 +52,9 @@ table_total_hrg = [[pilih_brg,jumlah_brg,jenis_brg,berat_brg,total_hrg]]
 headers_total_hrg = ['barang yg dibeli','jumlah barang','jenis barang','berat barang(kg)','total harga(Rp.)']
 hasil_berat_brg = print(tabulate(table_total_hrg, headers_total_hrg, tablefmt="pretty"))
 
+tanya = input('Ingin membeli barang lagi ?(ya/tidak): ')
+
+if tanya == 'ya':
+    print(tabulate(table_daftar_brg, headers_daftar_brg, tablefmt="pretty"))
+else:
+    print('Terimakasih telah berkunjung')
